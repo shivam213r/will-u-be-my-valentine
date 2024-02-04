@@ -8,7 +8,7 @@ let i=0
 let sent=["are you sure?","really sure?", "think again :(", "i'll cryy T-T", "Change of mind", "Last chance", "u will regret this","this could be a mistake","ok u r not thinking straight"," u cold hearted T-T", "You are breaking my heart"]
 
 yes.addEventListener("click",()=>{
-     image.setAttribute("src","https://i.pinimg.com/originals/a3/31/e9/a331e9e43c4e1fb6a8acda8c72aad43e.gif")
+     image.setAttribute("src","https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif")
      hidden.style.display= "none"
      headding.innerText="hepi hepi hepi"
      image.style.width="100%"
