@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #fcfcf9;
+    height: 100vh;
+    
+    
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+    
+}
+.container div:nth-child(1){
+    display: grid;
+    place-items: center;
+}
+.container>div>img{
+    width: 250px;
+}
+
+button{
+    padding: 10px 10px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.green{
+    background-color: rgb(46, 156, 55);
+    margin-right: 10px;
+}
+.red{
+    background-color: red;
+}
